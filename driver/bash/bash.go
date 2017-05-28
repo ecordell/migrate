@@ -2,8 +2,8 @@
 package bash
 
 import (
-	"gopkg.in/mattes/migrate.v1/driver"
-	"gopkg.in/mattes/migrate.v1/file"
+	"github.com/ecordell/migrate/driver"
+	"github.com/ecordell/migrate/file"
 )
 
 type Driver struct {

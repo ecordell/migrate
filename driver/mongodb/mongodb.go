@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"strings"
 
-	"gopkg.in/mattes/migrate.v1/driver"
-	"gopkg.in/mattes/migrate.v1/driver/mongodb/gomethods"
-	"gopkg.in/mattes/migrate.v1/file"
-	"gopkg.in/mattes/migrate.v1/migrate/direction"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/ecordell/migrate/driver"
+	"github.com/ecordell/migrate/driver/mongodb/gomethods"
+	"github.com/ecordell/migrate/file"
+	"github.com/ecordell/migrate/migrate/direction"
+	"github.com/mgo.v2"
+	"github.com/mgo.v2/bson"
 )
 
 type UnregisteredMethodsReceiverError string

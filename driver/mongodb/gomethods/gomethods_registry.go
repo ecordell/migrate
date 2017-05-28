@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"gopkg.in/mattes/migrate.v1/driver"
+	"github.com/ecordell/migrate/driver"
 )
 
 var methodsReceiversMu sync.Mutex

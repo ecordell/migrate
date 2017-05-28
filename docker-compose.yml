@@ -1,8 +1,8 @@
 go: &go
   image: golang
-  working_dir: /go/src/gopkg.in/mattes/migrate.v1
+  working_dir: /go/src/github.com/ecordell/migrate
   volumes:
-    - $GOPATH/src/github.com/mattes/migrate:/go/src/gopkg.in/mattes/migrate.v1  
+    - $GOPATH/src/github.com/ecordell/migrate:/go/src/github.com/ecordell/migrate
 go-test:
   <<: *go
   command: sh -c 'go get -t -v ./... && go test -v ./...'
